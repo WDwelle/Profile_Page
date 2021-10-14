@@ -1,15 +1,48 @@
+.primary{
+    background-color: white;
+}
+
 .container{
     background-color: cyan;
     color: black;
+    width: 60%;
+    outline-color: black;
+    outline-width: 5px;
 }
 
 .box{
     background-color: white;
     padding: 40px;
+    height: 60%;
 }
 
 .prof{
     position: relative;
     left: 20px;
-    top: 40px;
+    top: 70px;
+}
+
+.nav{
+    background-color: gray;
+    height: 50px;
+    vertical-align: top;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+li{
+    justify-content: space-between;
+    display: inline-block;
+}
+
+button{
+    background-color: cyan;
+    box-shadow: 3px 2px black;
+    border-color: black;
+    margin-left: 70%;
+    width: 100px;
+}
+body{
+    font-family: 'Roboto' ,sans-serif;
 }
