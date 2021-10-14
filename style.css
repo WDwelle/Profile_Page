@@ -1,0 +1,15 @@
+.container{
+    background-color: cyan;
+    color: black;
+}
+
+.box{
+    background-color: white;
+    padding: 40px;
+}
+
+.prof{
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
