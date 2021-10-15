@@ -2,12 +2,14 @@
     background-color: white;
 }
 
+.row{
+    flex: 1;
+}
 .container{
     background-color: cyan;
     color: black;
-    width: 60%;
-    outline-color: black;
-    outline-width: 5px;
+    width: 50%;
+    border-style: solid;
 }
 
 .box{
@@ -36,9 +38,9 @@
 
 .nav{
     background-color: gray;
-    height: 50px;
+    height: 40px;
     vertical-align: top;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     display: flex;
 }
