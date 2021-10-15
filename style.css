@@ -2,23 +2,40 @@
     background-color: white;
 }
 
+.master{
+    display: inline-flex;
+}
+
 .container{
     background-color: cyan;
     color: black;
-    width: 50%;
     border-style: solid;
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.facts{
+    border-style: solid;
+    color: black;
+    display: flex;
 }
 
 .container2{
     background-color: blanchedalmond;
     color: black;
-    border-style: solid;
+    display: inline-block;
+    width: 50%;
 }
 
 .box{
     background-color: white;
     padding: 40px;
     height: 60%;
+}
+.lorem{
+    border-style: solid;
+    padding: 5%;
 }
 
 .local img{
@@ -64,8 +81,12 @@ button{
     box-shadow: 3px 2px black;
     border-color: black;
     width: 100px;
-    position: fixed;
-    right: 10%;
+}
+
+.button_con{
+    display: flex;
+    justify-content: right;
+    width: 80%;
 }
 
 .nav{
