@@ -2,13 +2,16 @@
     background-color: white;
 }
 
-.row{
-    flex: 1;
-}
 .container{
     background-color: cyan;
     color: black;
     width: 50%;
+    border-style: solid;
+}
+
+.container2{
+    background-color: blanchedalmond;
+    color: black;
     border-style: solid;
 }
 
@@ -45,6 +48,12 @@
     display: flex;
 }
 
+
+
+ul{
+    align-items: center;
+}
+
 li{
     justify-content: space-between;
     display: inline-block;
@@ -54,9 +63,12 @@ button{
     background-color: cyan;
     box-shadow: 3px 2px black;
     border-color: black;
-    margin-left: 70%;
     width: 100px;
+    position: fixed;
+    right: 10%;
 }
-body{
-    font-family: 'Roboto' ,sans-serif;
+
+.nav{
+    border-style: solid;
+    border-color: black;
 }
